@@ -15,6 +15,7 @@
   var tip = document.getElementById("tip");
 	var gt = document.getElementById("goal_text");
   var tt = document.getElementById("tip_text");
+  var goal_posx,goal_posy,tip_posx,tip_posy;
   function getAbsBox(o) {return o.getBoundingClientRect()};
   function update() {
     a1.setAttribute("transform", `rotate(${angle_1},${j1_cx},${j1_cy})`);
